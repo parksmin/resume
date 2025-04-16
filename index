@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>박성민 이력서</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "\2022";
+      color: #4caf50;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>👨‍💼 박성민 이력서</h1>
+
+  <div class="section">
+    <h2>📄 기본 정보</h2>
+    <p>이름: 박성민</p>
+    <p>이메일: seongm0320@icloud.com</p>
+    <p>GitHub: <a href="https://github.com/parksmin">github.com/sungminpak</a></p>
+  </div>
+
+  <div class="section">
+    <h2>🛠 기술 스택</h2>
+    <ul>
+      <li>**Framework**: Java, JavaScript, Dart</li>
+      <li>**Framework**: Spring Boot, Flutter</li>
+      <li>**Database**: MySQL</li>
+      <li>**Tools**: Git, IntelliJ, VS Code</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📈 프로젝트 경험</h2>
+    <p><strong>시나브로 (졸업작품)</strong>: 아동 한국어 학습 앱 (필기 인식, AI 그림, TTS 활용)</p>
+    <p><strong>개인 포트폴리오 사이트</strong>: React 기반 웹사이트, GitHub Pages 배포, 백엔드(jsp) 프로젝트</p>
+  </div>
+</body>
+</html>
